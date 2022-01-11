@@ -1,0 +1,67 @@
+body {
+  font-family: "Avenir Next";
+} 
+/* Gunakan property list-style untuk menghilangkan bullet dari tag <li> */
+li {
+  list-style: none;
+
+}
+
+/* Gantikan background-color header ke #f7f2b4, dan height ke 90px */
+.header {
+  background-color: #f7f2b4;
+  color: #808080;
+  height: 90px;
+}
+/* Gantikan font-size milik header-logo ke 36px, dan property float ke left */
+.header-logo {
+  font-size: 36px;
+  float: left;
+  padding: 20px 40px;
+  color: #2F4F4F;
+}
+.header-list li{
+float:left;
+  padding: 33px 20px;
+}
+/* Gantikan background-color main ke #bdf7f1, dan height ke 600px */
+.main {
+  padding:100px 80px;
+}
+.copy-container h1 {
+ font-size:140px;
+}
+.copy-container h2 {
+	font-size:65px;
+}
+.copy-container span {
+	color:#ff4a4a;
+}
+.contents {
+	height:500px;
+}
+.section-title {
+	border-item:2px solid #dee7ec;
+}
+.contents-item {
+	float:left;
+	margin-right : 40px
+}
+/* Gantikan background-color footer ke #ceccf3, dan height ke 270px */
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+.footer-logo {
+ font-size:95px;
+ float:left;
+}
+.footer-list {
+	padding-bottom: 20px;
+	float: right;
+}
+.footer-list li {
+	padding-bottom: 20px;
+}
